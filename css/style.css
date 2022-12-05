@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "digital";
+  src: url("../asset/fonts/digital-7.ttf");
+}
+
+body {
+  background: #cecece;
+}
+#Chrono {
+  position: absolute;
+}
+
+#Timer {
+  color: red;
+  top: -400px;
+  font-size: 30px;
+  font-family: "digital";
+  position: relative;
+  left: 330px;
+  transform: rotate(355deg);
+}
+
+button {
+  font-size: 15px;
+  font-family: "digital";
+  position: relative;
+  margin: 0px 10px;
+  background-color: #000000;
+  color: green;
+  border: #afa895 2px solid;
+}
+
+/* #start {
+    transform: rotate(355deg);
+    top: 5px
+}
+#stop {
+    transform: rotate(355deg);
+    top: 5px
+}
+#reset {
+    transform: rotate(355deg);
+    top: 5px
+} */
+
+#btn_liste {
+  left: 300px;
+  top: -380px;
+  transform: rotate(352deg);
+  position: relative;
+}
